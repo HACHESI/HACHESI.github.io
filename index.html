@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Especial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#poemas">Poemas</a></li>
+        </ul>
+    </nav>
+    <header id="inicio">
+        <h1>I love you so my Abi</h1>
+    </header>
+    <div class="carta-container">
+        <div id="carta" class="carta">
+            <img src="https://i.pinimg.com/564x/e1/fc/43/e1fc43e80665251d34e22b1ee3b9dd10.jpg" alt="Carta">
+        </div>
+        <div id="textoCarta" class="oculto">
+            <p>Querida Abi,</p>
+            <p>A pesar de todo lo que hemos pasado, quiero que sepas que te sigo amando con cada latido de mi corazón. Quiero seguir mi vida a tu lado y hacerte feliz cada día.</p>
+            <p> Hemos tenido nuestras diferencias pero nunca dude cuanto la amo.</p>
+            <p>Feliz Cumpleaños mi princesita hermosa.</p>
+            <p> Con amor, Haches.</p>
+        </div>
+    </div>
+    <audio id="background-music" src="cancionh/musicahaches1.mp3"></audio>
+    <div id="corazones"></div>
+    <section id="galeria" class="galeria">
+        <picture>
+            <img src="imgh/fotohaches0.jpg" alt="Foto 1">
+        </picture>
+        <picture>
+            <img src="imgh/fotohaches1.jpg" alt="Foto 2">
+        </picture>
+        <picture>
+            <img src="imgh/fotohaches2.jpg" alt="Foto 3">
+        </picture>
+        <picture>
+            <img src="imgh/fotohaches3.jpg" alt="Foto 4">
+        </picture>
+        <picture>
+            <img src="imgh/fotohaches4.jpg" alt="Foto 5">
+        </picture>
+    </section>
+    <section id="poemas"> 
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+        <h2>Poemas</h2> 
+        <div class="poemas-container">
+            <!-- Aquí puedes agregar tus poemas -->
+            <div class="poema">
+                <p>""How Do I Love Thee? (Sonnet 43)" de Elizabeth Barrett Browning"</p>
+                <p>[How do I love thee? Let me count the ways.</p>
+                    <p> I love thee to the depth and breadth and height</p>
+                        <p> My soul can reach, when feeling out of sight</p>
+                            <p> For the ends of being and ideal grace.</p>
+                                <p> I love thee to the level of every day's</p>
+                                    <p> Most quiet need, by sun and candle-light.</p>
+                                        <p> I love thee freely, as men strive for right;</p>
+                                            <p> I love thee purely, as they turn from praise.</p>
+                                                <p> I love thee with the passion put to use</p>
+                                                    <p> In my old griefs, and with my childhood's faith.</p>
+                                                        <p> I love thee with a love I seemed to lose</p>
+                                                            <p> With my lost saints,—I love thee with the breath,</p>
+                                                                <p> Smiles, tears, of all my life;—and, if God choose,</p>
+                                                                    <p> I shall but love thee better after death.]</p>
+            </div>
+            <div class="poema">
+                <p>""Soneto XVII" de Pablo Neruda"</p>
+                <p>[No te amo como si fueras rosa de sal, topacio</p>
+                    <p> o flecha de claveles que propagan el fuego:</p>
+                        <p>  te amo como se aman ciertas cosas oscuras,</p>
+                            <p> secretamente, entre la sombra y el alma.</p>
+                                <p> </p>
+                                    <p> Te amo como la planta que no florece y lleva</p>
+                                        <p> dentro de sí, escondida, la luz de aquellas flores,</p>
+                                            <p>  y gracias a tu amor vive oscuro en mi cuerpo</p>
+                                                <p>  el apretado aroma que ascendió de la tierra.</p>
+                                                    <p>  </p>
+                                                        <p>  Te amo sin saber cómo, ni cuándo, ni de dónde,</p>
+                                                            <p>  te amo directamente sin problemas ni orgullo:</p>
+                                                                <p>  así te amo porque no sé amar de otra manera,</p>
+                                                                    <p>  </p>
+                                                                        <p>  sino así de este modo en que no soy ni eres,</p>
+                                                                            <p>  tan cerca que tu mano sobre mi pecho es mía,</p>
+                                                                                <p>  tan cerca que se cierran tus ojos con mi sueño]</p>
+            </div>
+            <!-- Agrega más divs de poema según sea necesario -->
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Haches & Abi. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener('click', function() {
+            var music = document.getElementById('background-music');
+            if (music.paused) {
+                music.play();
+            }
+        });
+    </script>
+</body>
+</html>
